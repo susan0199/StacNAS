@@ -7,6 +7,7 @@ The algorithm proposed a stable and consistent optimization strategy for differe
   <img src="images/DAG.png" alt="two_stage DAG" width="100%">
   <br/>Two Stages
 </p>
+
 **note: it is optional to keep the search stage operation ZERO in the final architecture, which can serve as an attention to learn the relative contribution of the two paths passing to the same node**
 
 
@@ -132,9 +133,9 @@ python run_all.py
 ```
 Note that you should modify the parameters in file run_all.py before running.
 
-## alpha efficiency
+## $\alpha$ efficiency
 <p align="center">
-  <img src="images/correlation.png" alt="Alpha prediction correlation with stand-alone model accuracy" width="60%">
+  <img src="images/correlation.png" alt="Alpha prediction correlation with stand-alone model accuracy" width="120%">
   <br/>Two Stages
 </p>
 
