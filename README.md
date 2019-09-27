@@ -1,6 +1,6 @@
 # [StacNAS: Towards Stable and Consistent Optimization for Differentiable Architecture Search](https://openreview.net/forum?id=rygpAnEKDH)
 <p align="center">
-  <img src="images/DAG.png" alt="two_stage DAG" width="60%">
+  <img src="images/DAG.png" alt="two_stage DAG" width="100%">
   <br/>Two Stages
 </p>
 
