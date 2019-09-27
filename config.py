@@ -104,7 +104,7 @@ class SearchConfig(BaseConfig):
         parser.add_argument(
             "--weight_decay", type=float, default=3e-4, help="weight decay")
         parser.add_argument(
-            "--grad_clip", type=float, default=5, help="gradient clip")
+            "--grad_clip", type=float, default=3, help="gradient clip")
 
         parser.add_argument(
             "--alpha_share", action="store_true", default=False, 
