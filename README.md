@@ -8,7 +8,7 @@ The algorithm proposed a stable and consistent optimization strategy for differe
   <br/>Two Stages
 </p>
 
-**note: it is optional to keep the search stage operation ZERO in the final architecture, which can serve as an attention to learn the relative contribution of the two paths passing to the same node**
+**Note: it is optional to keep the search stage operation ZERO in the final architecture, which can serve as an attention to learn the relative contribution of the two paths passing to the same node**
 
 
 
@@ -135,11 +135,11 @@ Note that you should modify the parameters in file run_all.py before running.
 
 ## Results
 <p align="center">
-  <img src="images/cifar10.PNG" alt="CIFAR10 Benchmark" width="100%">
+  <img src="images/cifar10result.PNG" alt="CIFAR10 Benchmark" width="100%">
   <br/>CIFAR10 Benchmark
 </p>
- we reported the mean and standard deviation over 8 single runs (i.e. search once and evaluate once, repeats the procedure 8 times with different seeds).  base represents for that the final architecture training
-procedure is exactly the same with DARTS for a fair comparison; fancy represents for that the finaltraining adopts training tricks for comparison with other NAS methods.* 
+ **We reported the mean and standard deviation over 8 single runs (i.e. search once and evaluate once, repeats the procedure 8 times with different seeds).  base represents for that the final architecture training
+procedure is exactly the same with DARTS for a fair comparison; fancy represents for that the finaltraining adopts training tricks for comparison with other NAS methods.**
 
 
 <p align="center">
