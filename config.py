@@ -76,7 +76,7 @@ class SearchConfig(BaseConfig):
             "--stage", type=str, default="search1", 
             help="search1/search2/augment")
         parser.add_argument(
-            "--train_ratio", type=float, default=0.9, 
+            "--train_ratio", type=float, default=1, 
             help="train-valid split ratio")
         
         parser.add_argument(
@@ -121,7 +121,7 @@ class SearchConfig(BaseConfig):
             "--auto_aug", action="store_true", default=False, 
             help="whether to use auto augmentation of images")
         parser.add_argument(
-            "--aux_weight", type=float, default=0.4, 
+            "--aux_weight", type=float, default=0, 
             help="auxiliary loss weight, " \
                  "aux_weight=0 for no auxiliary head")
         parser.add_argument(
@@ -131,10 +131,9 @@ class SearchConfig(BaseConfig):
             help="drop path probability")
         parser.add_argument(
             "--label_smooth", type=float, default=0.0, 
-            help="label smoothing, label_smooth=0 for no label smoothing")
-        
+            help="label smoothing, label_smooth=0 for no label smoothing")     
         parser.add_argument(
-            "--epochs", type=int, default=50, help="number of epochs")
+            "--epochs", type=int, default=80, help="number of epochs")
         parser.add_argument(
             "--report_freq", type=float, default=50, help="report frequency")
         
