@@ -135,15 +135,15 @@ Note that you should modify the parameters in file run_all.py before running.
 
 ## Results
 <p align="center">
-  <img src="images/cifar10" alt="CIFAR10 Benchmark" width="100%">
+  <img src="images/cifar10.PNG" alt="CIFAR10 Benchmark" width="100%">
   <br/>CIFAR10 Benchmark
 </p>
-*We emphasis that to obtain an unbiased result, we reported the mean and standard deviation over 8 single runs (i.e. search once and evaluate once, repeats the procedure 8 times with different seeds).  base represents for that the final architecture training
+ we reported the mean and standard deviation over 8 single runs (i.e. search once and evaluate once, repeats the procedure 8 times with different seeds).  base represents for that the final architecture training
 procedure is exactly the same with DARTS for a fair comparison; fancy represents for that the finaltraining adopts training tricks for comparison with other NAS methods.* 
 
 
 <p align="center">
-  <img src="images/imagenetresult" alt="CIFAR10 Benchmark" width="100%">
+  <img src="images/imagenetresult.PNG" alt="CIFAR10 Benchmark" width="100%">
   <br/>IMAGENET mobile setting Benchmark
 </p>
 
