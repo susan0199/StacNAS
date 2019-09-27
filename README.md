@@ -11,7 +11,7 @@ The algorithm proposed a stable and consistent optimization strategy for differe
 
 
 
-For the experiments on ImageNet, see [this codebase](https://github.com/susan0199/stacnas)ip
+ 
 
 <p align="center">
   <img src="images/two_stage.png" alt="StacNAS" width="60%">
