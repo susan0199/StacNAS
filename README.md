@@ -20,7 +20,7 @@ CIFAR-10 and CIFAR-100 can be automatically downloaded by torchvision, ImageNet 
 ## Pretrained models
 The easiest way to get started is to evaluate our pretrained StacNAS models.
 
-**CIFAR-10/CIFAR-100** ([cifar10.pth.tar](cifar10.pth.tar)) ([cifar100.pth.tar](cifar100.pth.tar))
+**CIFAR-10/CIFAR-100** ([cifar10.pth.tar](https://drive.google.com/open?id=1L5OWrK1dzMUIDAesZJhUARFshqEJLdEc)) ([cifar100.pth.tar](https://drive.google.com/open?id=18SmkZouYobRnlqCrEp9tRVb3QlYeiXDZ))
 ```
 python test.py \
     --name job_name \
@@ -33,8 +33,8 @@ python test.py \
     --load_model_dir "models/cifar10.pth.tar"
 ```
 * Expected result: 2.48% test error rate with 3.9M model params.
-
-Similar for CIFAR-100 and ImageNet.
+For CIFAR100, replace  --dataset cifar10  with  --dataset cifar100  
+**IMAGENET(mobile setting)** ([imagenet.pth.tar](https://drive.google.com/open?id=1tV5iHntxbLfG0dF5OmIPMHPw1SythXs6))
 
 ## Architecture search stage1
 To carry out architecture search using  
