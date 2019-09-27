@@ -10,10 +10,10 @@ The algorithm proposed a stable and consistent optimization strategy for differe
 For the experiments on ImageNet, see [this codebase](https://github.com/susan0199/stacnas)ip
 
 <p align="center">
-  <img src="images/two_stage.png" alt="two_stage" width="60%">
+  <img src="images/two_stage.png" alt="StacNAS" width="60%">
   <br/>Two Stages
 </p>
-
+**note: it is optional to keep the search stage operation ZERO in the final architecture, which can serve as an attention to learn the relative contribution of the two paths passing to the same node**
 ## Requirements
 ```
 Python >= 3.5.5, PyTorch >= 1.0.0, torchvision >= 0.2.0
