@@ -1,8 +1,13 @@
 # [StacNAS: Towards Stable and Consistent Optimization for Differentiable Architecture Search](https://openreview.net/forum?id=rygpAnEKDH)
+<p align="center">
+  <img src="images/DAG.png" alt="two_stage DAG" width="60%">
+  <br/>Two Stages
+</p>
 
-The algorithm is based on continuous relaxation and gradient descent in the architecture space. It is able to efficiently design high-performance convolutional architectures for image classification (on CIFAR-10, CIFAR-100 and ImageNet). Only a single GPU is required.
+The algorithm proposed a stable and consistent optimization strategy for differentiable architecture search. The mean accuracy is largely improved over DARTS and variance over repeated experiment (withou multiple run and pick the best strategy) is significantly reduced. 
 
-For the experiments on ImageNet, see [this codebase](https://github.com/susan0199/stacnas)
+
+For the experiments on ImageNet, see [this codebase](https://github.com/susan0199/stacnas)ip
 
 <p align="center">
   <img src="images/two_stage.png" alt="two_stage" width="60%">
@@ -32,9 +37,12 @@ python test.py \
     --batch_size 96 \
     --load_model_dir "models/cifar10.pth.tar"
 ```
-* Expected result: 2.48% test error rate with 3.9M model params.
-For CIFAR100, replace  --dataset cifar10  with  --dataset cifar100  
+* Expected result: 1.88% test error rate with 4.48M model params.
+For CIFAR100, replace  --dataset cifar10  with  --dataset cifar100 
+* Expected result: 12.9% test error rate with 4.36M model params.
+
 **IMAGENET(mobile setting)** ([imagenet.pth.tar](https://drive.google.com/open?id=1tV5iHntxbLfG0dF5OmIPMHPw1SythXs6))
+* Expected result: 1.88% test error rate with 4.48M model params.
 
 ## Architecture search stage1
 To carry out architecture search using  
@@ -119,6 +127,13 @@ To run all the above directly, run
 python run_all.py
 ```
 Note that you should modify the parameters in file run_all.py before running.
+
+## alpha efficiency
+<p align="center">
+  <img src="images/correlation.png" alt="Alpha prediction correlation with stand-alone model accuracy" width="60%">
+  <br/>Two Stages
+</p>
+
 
 ## Found architectures
 
