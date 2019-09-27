@@ -1,10 +1,14 @@
 # [StacNAS: Towards Stable and Consistent Optimization for Differentiable Architecture Search](https://openreview.net/forum?id=rygpAnEKDH)
+
+
+The algorithm proposed a stable and consistent optimization strategy for differentiable architecture search. The mean accuracy is largely improved over DARTS and variance over repeated experiment (withou multiple run and pick the best strategy) is significantly reduced. 
+
 <p align="center">
   <img src="images/DAG.png" alt="two_stage DAG" width="100%">
   <br/>Two Stages
 </p>
+**note: it is optional to keep the search stage operation ZERO in the final architecture, which can serve as an attention to learn the relative contribution of the two paths passing to the same node**
 
-The algorithm proposed a stable and consistent optimization strategy for differentiable architecture search. The mean accuracy is largely improved over DARTS and variance over repeated experiment (withou multiple run and pick the best strategy) is significantly reduced. 
 
 
 For the experiments on ImageNet, see [this codebase](https://github.com/susan0199/stacnas)ip
@@ -13,7 +17,7 @@ For the experiments on ImageNet, see [this codebase](https://github.com/susan019
   <img src="images/two_stage.png" alt="StacNAS" width="60%">
   <br/>Two Stages
 </p>
-** note: it is optional to keep the search stage operation ZERO in the final architecture, which can serve as an attention to learn the relative contribution of the two paths passing to the same node **
+
 ## Requirements
 ```
 Python >= 3.5.5, PyTorch >= 1.0.0, torchvision >= 0.2.0
