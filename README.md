@@ -133,6 +133,18 @@ python run_all.py
 ```
 Note that you should modify the parameters in file run_all.py before running.
 
+## Results
+<p align="center">
+  <img src="cifar10" alt="CIFAR10 Benchmark" width="100%">
+  <br/>CIFAR10 Benchmark
+</p>
+
+<p align="center">
+  <img src="imagenetresult" alt="CIFAR10 Benchmark" width="100%">
+  <br/>IMAGENET mobile setting Benchmark
+</p>
+
+
 ## $\alpha$ efficiency
 <p align="center">
   <img src="images/correlation.png" alt="Alpha prediction correlation with stand-alone model accuracy" width="120%">
