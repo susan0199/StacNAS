@@ -55,7 +55,6 @@ To carry out architecture search using
 python search.py \
     --name job_name \
     --dataset cifar10 \
-    --train_ratio 1.0 \
     --data_dir /path/to/dataset/ \
     --save_dir /path/to/results/ \
     --seed 6 \
@@ -74,7 +73,6 @@ To carry out architecture search2, run
 python search.py \
     --name job_name \
     --dataset cifar10 \
-    --train_ratio 1.0 \
     --data_dir /path/to/dataset/ \
     --save_dir /path/to/results/ \
     --seed 6 \
@@ -93,7 +91,6 @@ To evaluate our best cells by training from scratch, run
 python augment.py \
     --name job_name \
     --dataset cifar10 \
-    --train_ratio 1.0 \
     --data_dir /path/to/dataset/ \
     --save_dir /path/to/results/ \
     --seed 6 \
