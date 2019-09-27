@@ -58,13 +58,11 @@ python search.py \
     --train_ratio 1.0 \
     --data_dir /path/to/dataset/ \
     --save_dir /path/to/results/ \
-    --seed 1 \
+    --seed 6 \
     --stage search1 \
     --batch_size 64 \
     --init_channels 16 \
     --num_cells 14 \
-    --grad_clip 3 \
-    --aux_weight 0.0 \
     --epochs 80 \
     --alpha_share
 ```
@@ -79,13 +77,11 @@ python search.py \
     --train_ratio 1.0 \
     --data_dir /path/to/dataset/ \
     --save_dir /path/to/results/ \
-    --seed 1 \
+    --seed 6 \
     --stage search2 \
     --batch_size 64 \
     --init_channels 16 \
     --num_cells 20 \
-    --grad_clip 3 \
-    --aux_weight 0.0 \
     --epochs 80 \
     --alpha_share
 ```
@@ -100,7 +96,7 @@ python augment.py \
     --train_ratio 1.0 \
     --data_dir /path/to/dataset/ \
     --save_dir /path/to/results/ \
-    --seed 3 \
+    --seed 6 \
     --stage augment \
     --batch_size 96 \
     --init_channels 36 \
