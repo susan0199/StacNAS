@@ -48,7 +48,7 @@ For CIFAR100, replace  --dataset cifar10  with  --dataset cifar100
 
 **IMAGENET(mobile setting)** ([imagenet.pth.tar](https://drive.google.com/open?id=1tV5iHntxbLfG0dF5OmIPMHPw1SythXs6))
 * Expected result: 1.88% test error rate with 4.48M model params.
-
+(Code coming soon)
 ## Architecture search stage1
 To carry out architecture search using  
 ```
@@ -140,7 +140,7 @@ procedure is exactly the same with DARTS for a fair comparison; fancy represents
   <br/>IMAGENET mobile setting Benchmark
 </p>
 
-## Can architecture weight really learn the relative immportance? 
+## Can architecture weight really learn the relative importance? 
 <p align="center">
   <img src="images/correlation.png" alt="Alpha prediction correlation with stand-alone model accuracy" width="120%">
   <br/>Two Stages
