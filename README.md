@@ -30,7 +30,7 @@ CIFAR-10 and CIFAR-100 can be automatically downloaded by torchvision, ImageNet 
 ## Pretrained models
 The easiest way to get started is to evaluate our pretrained StacNAS models.
 
-**CIFAR-10/CIFAR-100** ([cifar10.pth.tar](https://drive.google.com/open?id=1L5OWrK1dzMUIDAesZJhUARFshqEJLdEc)) ([cifar100.pth.tar](https://drive.google.com/open?id=18SmkZouYobRnlqCrEp9tRVb3QlYeiXDZ))
+**CIFAR-10/CIFAR-100** ([cifar10.pth.tar](https://drive.google.com/open?id=1AoyXk--uDV7p7g9R-7QI5HcBWRW6HkKb)) ([cifar100.pth.tar]())
 ```
 python test.py \
     --name job_name \
